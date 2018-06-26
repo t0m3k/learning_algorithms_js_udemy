@@ -8,8 +8,31 @@ const reverseWords = (sentence) => {
         }
         return result
     })
-
     return wordsArray.join(' ')
 }
 
-console.log(reverseWords('Some sentence to be word reversed'))
+const sentence = 'Some sentence to be word reversed'
+
+console.log(reverseWords(sentence))
+
+/**
+ * PROPOSED CODE:
+
+    function reverseWords(string) {
+    var wordsArr = string.split(' ');
+    var reversedWordsArr = [];
+    
+    wordsArr.forEach(word => {
+        var reversedWord = '';
+        for (var i = word.length - 1; i >= 0; i--) {
+        reversedWord += word[i];
+        };
+        reversedWordsArr.push(reversedWord);
+    });
+    
+    return reversedWordsArr.join(' ');
+    }
+
+    reverseWords('Coding JavaScript');
+
+ */
