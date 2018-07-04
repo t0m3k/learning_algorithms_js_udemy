@@ -1,0 +1,19 @@
+{
+  "name": "learning_algorithms_js_udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caesarCipher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t0m3k/learning_algorithms_js_udemy.git"
+  },
+  "author": "Tomasz Tracz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t0m3k/learning_algorithms_js_udemy/issues"
+  },
+  "homepage": "https://github.com/t0m3k/learning_algorithms_js_udemy#readme"
+}
