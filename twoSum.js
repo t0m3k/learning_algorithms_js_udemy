@@ -3,7 +3,7 @@ const twoSum = (numArray, sum) => {
     const hashTable = []
     numArray.forEach((num) => {
         if(hashTable.includes(sum - num)) result.push([num, sum-num])
-        hashTable.push(num) 
+        hashTable.push(num)
     })
     return result
 }
